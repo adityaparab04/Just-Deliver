@@ -1,0 +1,25 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.heading {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+
+.logo {
+  width: 180px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-container > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
