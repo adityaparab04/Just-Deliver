@@ -1,11 +1,7 @@
-body {
-  padding: 0px;
-  margin: 0px;
-}
 .heading {
   display: flex;
-  padding: 0px;
-  margin: 0px;
+  justify-content: space-between;
+  border: 1px solid black;
 }
 
 .logo {
@@ -14,7 +10,12 @@ body {
   padding: 0;
 }
 
+.nav-container {
+  padding: 0px 20px;
+}
+
 .nav-container > ul {
+  font-size: 24px;
   display: flex;
   list-style-type: none;
 }
@@ -22,4 +23,40 @@ body {
 .nav-container > ul > li {
   padding: 10px;
   margin: 10px;
+}
+
+.search {
+  padding: 10px;
+}
+
+.restaurant-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.restaurant-card {
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+  background-color: #f0f0f0;
+}
+
+.restaurant-card:hover {
+  cursor: pointer;
+  border: solid black 1px;
+}
+
+.restaurant-details > h3 {
+  text-align: center;
+  font-size: 22px;
+}
+
+.restaurant-logo {
+  width: 100%;
+  height: auto;
+}
+
+.restaurant-details {
+  margin: 5px;
 }
