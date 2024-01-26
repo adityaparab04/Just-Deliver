@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDom from "react-dom/client";
 import logo from "./assets/logo1.png";
+import Header from "./components/Header";
 
 const resDataList = [
   {
@@ -1886,24 +1887,6 @@ const resDataList = [
     subtype: "basic",
   },
 ];
-
-const Header = () => {
-  return (
-    <div className='heading'>
-      <div className='logo-container'>
-        <img className='logo' src={logo} alt='logo'></img>
-      </div>
-      <div className='nav-container'>
-        <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Contact Us</li>
-          <li>Cart</li>
-        </ul>
-      </div>
-    </div>
-  );
-};
 
 const RestaurantCard = (props) => {
   const { resData } = props;
