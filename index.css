@@ -6,8 +6,6 @@
 
 .logo {
   width: 180px;
-  margin: 0;
-  padding: 0;
 }
 
 .nav-container {
@@ -58,4 +56,9 @@
 
 .restaurant-details {
   margin: 5px;
+}
+
+.filter-btn {
+  margin: 10px;
+  cursor: pointer;
 }
